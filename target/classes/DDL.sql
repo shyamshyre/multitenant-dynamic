@@ -1,5 +1,5 @@
 CREATE TABLE if not exists test.DATASOURCECONFIG (
-	id bigint PRIMARY KEY,
+	 INT AUTO_INCREMENT PRIMARY KEY,
 	driverclassname VARCHAR(255),
 	url VARCHAR(255),
 	name VARCHAR(255),
@@ -7,6 +7,19 @@ CREATE TABLE if not exists test.DATASOURCECONFIG (
 	password VARCHAR(255),
 	initialize BOOLEAN
 );
+
+
+
+CREATE TABLE if not exists test.customer (
+	 INT AUTO_INCREMENT PRIMARY KEY,
+	driverclassname VARCHAR(255),
+	url VARCHAR(255),
+	name VARCHAR(255),
+	username VARCHAR(255),
+	password VARCHAR(255),
+	initialize BOOLEAN
+);
+
 ##### Schema Creation ############
 
 create schema if not exists test1;
